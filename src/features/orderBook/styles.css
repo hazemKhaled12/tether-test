@@ -1,0 +1,54 @@
+table {
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+.order-book {
+  display: flex;
+  flex-direction: column;
+}
+.order-book-container {
+  display: flex;
+
+  gap: 24px;
+}
+.precision-selector {
+  margin-bottom: 20px;
+}
+.controls {
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.order-book {
+  display: flex;
+  justify-content: space-around;
+}
+
+.order-book-side {
+  width: 70%;
+  margin: 0 24px;
+}
+
+.order-book-side h2 {
+  text-align: center;
+}
+
+.order-book-side ul {
+  list-style: none;
+  padding: 0;
+}
+
+.order-book-side li {
+  display: flex;
+  justify-content: space-between;
+}
+.data-container {
+  display: flex;
+  gap: 24px;
+}
